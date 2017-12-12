@@ -150,6 +150,8 @@ function draw(line, data, color, lineWidth) {
   context.stroke();
 };
 
+// axis functions adapted from Mike Bostock
+// see source at https://bl.ocks.org/mbostock/1550e57e12e73b86ad9e
 function xCanvas() {
   var tickCount = 5;
   var tickSize = 6;
