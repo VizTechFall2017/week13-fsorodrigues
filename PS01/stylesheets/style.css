@@ -1,0 +1,74 @@
+body {
+  background-color: black;
+}
+
+svg {
+  background-color: #FAFAFA;
+  width: 100%;
+  height: 100%;
+}
+
+canvas {
+  background-color: #FAFAFA;
+}
+
+#svg-container {
+  height: 80vh;
+}
+
+button {
+  margin: 1rem .5rem 1rem 0rem;
+  color: #777777;
+  background-color: #FAFAFA;
+  border: none;
+  /*border-radius: 8%;*/
+  width: 80px;
+  height: 50px;
+  box-shadow: inset 4px 5px 0px 0px #1e7e34;
+}
+
+button:active {
+  color: #2f2f2f;
+  background-color: #61a470;
+  box-shadow: inset 2px 3px 0px 0px #186429;
+}
+
+button:hover {
+  color: #2f2f2f;
+  background-color: #61a470;
+}
+
+button.active {
+  color: #2f2f2f;
+  background-color: #61a470;
+  box-shadow: inset 2px 3px 0px 0px #186429;
+}
+
+text {
+  font-family: Verdana;
+}
+
+.xAxis text,
+.yAxis text,
+.xAxis-label {
+  fill: #777777;
+  font-size: .6rem;
+}
+
+.xAxis-label {
+  font-weight: bold;
+}
+
+.xAxis path,
+.xAxis line {
+  stroke: #777777;
+}
+
+.xAxis path {
+  display: none;
+}
+
+.yAxis path,
+.yAxis line {
+  stroke: #777777;
+}

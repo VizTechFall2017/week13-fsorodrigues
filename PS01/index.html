@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Load from CSV</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic%7CPlayfair+Display:400,700%7CMontserrat" type="text/css" media="all">
+
+    <link rel="stylesheet" type="text/css" href="./stylesheets/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="./stylesheets/style.css">
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="./libraries/jquery-3.2.1.js"></script>
+    <script src="./libraries/bootstrap.js"></script>
+    <script src="./libraries/d3.v4.2.6.min.js"></script>
+    <script src="./libraries/crossfilter.js"></script>
+    <script src="./libraries/queue.min.js"></script>
+
+</head>
+
+<body>
+
+      <div class="container-fluid">
+          	<div class="row">
+              		<div class="col-md-12">
+                			<h3 class="text-success">
+                				Cripto-market
+                			</h3>
+          		    </div>
+          	</div>
+            <div class="row">
+                  <div class="col-md-1">
+                  </div>
+                  <div class="col-md-11">
+                    <button value="lin" class="svg-button inactive">Linear</button>
+                    <button value="log" class="svg-button active">Log</button>
+                  </div>
+            </div>
+          	<div class="row">
+            		  <div class="col-md-1" id="sidebar">
+            		  </div>
+              		<div class="col-md-9" id="svg-container">
+              		</div>
+                  <div class="col-md-2">
+            		  </div>
+          	</div>
+            <div class="row">
+                  <div class="col-md-1">
+                  </div>
+                  <div class="col-md-11">
+                    <button value="scalelin" class="canvas-button active">Linear</button>
+                    <button value="scalelog" class="canvas-button inactive">Log</button>
+                  </div>
+            </div>
+      	    <div class="row">
+                  <div class="col-md-1">
+                  </div>
+                  <div class="col-md-9" id="canvas-container">
+                  </div>
+                  <div class="col-md-2">
+                  </div>
+      	   </div>
+      </div>
+
+</body>
+
+<script src="./svg.js"></script>
+<script src="./canvas.js"></script>
+
+</html>
